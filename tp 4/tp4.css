@@ -1,0 +1,98 @@
+:root {
+    --fuente: Arial, sans-serif;
+    --color-texto: #F8FAFC;
+    --color-fondo: #0F172A;
+    --color-primario: #38BDF8;
+}
+
+* {
+    cursor: url('https://cdn.cursors-4u.net/previews/cat-paw-curl-f8836eeb-preview-128.webp') 0 0, auto !important;
+}
+
+body {
+    font-family: var(--fuente);
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    font-size: 16px;
+  
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 33px;
+    color: var(--color-primario);
+}
+
+h2 {
+    font-size: 33px;
+    color: var(--color-primario);
+}
+
+h3 {
+    font-size: 33px;
+    margin: 30px;
+}
+
+
+nav a {
+   color: var(--color-texto);
+  text-decoration: none;
+  border: 1px solid var(--color-primario);
+  padding: 7px 12px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--color-primario);
+    color: var(--color-fondo);
+}
+
+
+main {
+    width: 80%;
+    margin: 3px;
+}
+
+section {
+    
+    padding: 25px ;
+}
+
+p {
+    margin: 30px;
+    color: #CBD5E1;
+}
+
+form {
+    margin: 30px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+input:focus {
+  border-color: var(--color-primario);
+  box-shadow: 0 0 0 3px #38BDF8;
+  border-radius: 5px;
+}
+.enviar:active {
+  transform: scale(0.94);
+  background: var(--color-primario);
+}
+
+.proyecto img {
+    border-radius: 5px;
+}
+
+footer {
+    border-top: 1px solid #38BDF8;
+    text-align: center;
+    padding: 20px;
+}
